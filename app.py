@@ -24,15 +24,13 @@ def search(name, version) :
     response = requests.post(url, data=json.dumps(data), headers=headers)
     return response.json()
 
-model = test_api.model('new article', strict=True, model={
+model = test_api.model('SearchVuln', strict=True, model={
     'name': fields.String(title='패키지명', default='mruby', required=True),
     'version': fields.String(title='버전정보', default='2.1.2rc', required=True),
 })
 
 @test_api.route('/')
 class Test(Resource):
-    #def get(self):
-    #	return 'Hello World!'
     @test_api.expect(model)
     def post(self):
         return (search(api.payload['name'], api.payload['version'])), 200
