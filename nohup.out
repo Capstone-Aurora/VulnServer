@@ -1,0 +1,96 @@
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:42598
+ * Running on http://167.99.106.139:42598
+Press CTRL+C to quit
+163.152.3.139 - - [21/May/2023 07:31:40] "GET /api_docs HTTP/1.1" 404 -
+163.152.3.139 - - [21/May/2023 07:31:40] "GET /favicon.ico HTTP/1.1" 404 -
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:42598
+ * Running on http://167.99.106.139:42598
+Press CTRL+C to quit
+163.152.3.139 - - [21/May/2023 07:33:31] "GET /api_docs HTTP/1.1" 404 -
+163.152.3.139 - - [21/May/2023 07:33:33] "GET /api_docs HTTP/1.1" 404 -
+163.152.3.139 - - [21/May/2023 07:33:33] "GET /api_docs HTTP/1.1" 404 -
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Got unexpected extra argument (=--debug)
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Got unexpected extra argument (=--debug)
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:42598
+ * Running on http://167.99.106.139:42598
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 253-987-100
+163.152.3.139 - - [21/May/2023 07:34:36] "GET /api-docs HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:34:36] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:34:37] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:34:37] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 206 -
+163.152.3.139 - - [21/May/2023 07:34:37] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:34:37] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 206 -
+163.152.3.139 - - [21/May/2023 07:34:41] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:34:41] "GET /swagger.json HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:34:41] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:42598
+ * Running on http://167.99.106.139:42598
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 253-987-100
+163.152.3.139 - - [21/May/2023 07:35:24] "GET /api-docs HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:35:24] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swagger.json HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:35:25] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /api-docs HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:33] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:35:34] "GET /swagger.json HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:35:34] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+163.152.3.132 - - [21/May/2023 07:35:36] "GET /api-docs HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:36] "GET /swaggerui/droid-sans.css HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:37] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:37] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:37] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:39] "GET /swagger.json HTTP/1.1" 200 -
+163.152.3.132 - - [21/May/2023 07:35:39] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:35:44] "POST /SearchDep/ HTTP/1.1" 200 -
+Collecting brotlipy==0.7.0
+  Using cached brotlipy-0.7.0-cp38-cp38-manylinux1_x86_64.whl (1.1 MB)
+Collecting certifi==2022.12.7
+  Using cached certifi-2022.12.7-py3-none-any.whl (155 kB)
+Collecting cffi==1.15.1
+  Using cached cffi-1.15.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (442 kB)
+Collecting pycparser
+  Using cached pycparser-2.21-py2.py3-none-any.whl (118 kB)
+Installing collected packages: pycparser, cffi, brotlipy, certifi
+Successfully installed brotlipy-0.7.0 certifi-2022.12.7 cffi-1.15.1 pycparser-2.21
+Collecting pipdeptree
+  Using cached pipdeptree-2.7.1-py3-none-any.whl (17 kB)
+Installing collected packages: pipdeptree
+Successfully installed pipdeptree-2.7.1
+Collecting graphviz
+  Using cached graphviz-0.20.1-py3-none-any.whl (47 kB)
+Installing collected packages: graphviz
+Successfully installed graphviz-0.20.1
+163.152.3.139 - - [21/May/2023 07:36:39] "POST /SearchVuln/ HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:36:42] "POST /SearchVuln/ HTTP/1.1" 200 -

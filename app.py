@@ -36,7 +36,9 @@ def searchdep(file_content) :
     t1.start()
     while(not shell_command.check_string_in_file()) :
         time.sleep(3)
-    return "http://pwnable.co.kr/dependencies.png"
+    result = '{"site": "http://pwnable.co.kr/dependencies.png"}'
+    json_object = json.loads(result)
+    return json_object
 
 ModelVuln = SearchVuln.model('SearchVuln', strict=True, model={
     'name': fields.String(title='패키지명', default='mruby', required=True),
