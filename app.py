@@ -9,15 +9,7 @@ api = Api(app, version='1.0', title='OSVCAT 문서', description='OSVCAT API 문
 
 test_api = api.namespace('SearchVuln', description='조회 API')
 
-@app.route('/SearchVuln', methods = ['POST'])
-def SearchVuln():
-    user = request.get_json()#json 데이터를 받아옴
-    print(user)
-    return jsonify(user)# 받아온 데이터를 다시 전송
-
-
-'''    
-#def search(name, version) :
+def search(name, version) :
     url = "https://api.osv.dev/v1/query"
     data = {
         "package": {
@@ -30,9 +22,8 @@ def SearchVuln():
     }
 
     response = requests.post(url, data=json.dumps(data), headers=headers)
+    return response.json()
 
-    print(response.json())
-'''
 model = test_api.model('new article', strict=True, model={
     'name': fields.String(title='패키지명', default='mruby', required=True),
     'version': fields.String(title='버전정보', default='2.1.2rc', required=True),
@@ -40,12 +31,11 @@ model = test_api.model('new article', strict=True, model={
 
 @test_api.route('/')
 class Test(Resource):
-    @staticmethod
-    @test_api.expect(model, validate=True)
-    def post():
-    	return search(model.name, model.version)
-
-
+    #def get(self):
+    #	return 'Hello World!'
+    @test_api.expect(model)
+    def post(self):
+        return (search(api.payload['name'], api.payload['version'])), 200
 
 
 if __name__ == '__main__':
