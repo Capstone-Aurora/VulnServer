@@ -94,3 +94,10 @@ Installing collected packages: graphviz
 Successfully installed graphviz-0.20.1
 163.152.3.139 - - [21/May/2023 07:36:39] "POST /SearchVuln/ HTTP/1.1" 200 -
 163.152.3.139 - - [21/May/2023 07:36:42] "POST /SearchVuln/ HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:42:44] "GET /api-docs HTTP/1.1" 200 -
+163.152.3.139 - - [21/May/2023 07:42:44] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:42:44] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:42:44] "GET /swaggerui/swagger-ui.css HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:42:44] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:42:45] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+163.152.3.139 - - [21/May/2023 07:42:45] "GET /swagger.json HTTP/1.1" 200 -
