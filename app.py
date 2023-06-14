@@ -53,6 +53,8 @@ ModelDep = SearchDep.model('SearchDep', strict=True, model={
 class Test(Resource):
     @SearchDep.expect(ModelDep)
     def post(self):
+        #print("\n\nhello\n\n")
+        #print(api.paylode)
         return (searchdep(api.payload['file'])), 200
 
 @SearchVuln.route('/')
